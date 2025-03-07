@@ -2,7 +2,6 @@
 
 int main(){
 
-    //informações sobre a estrutura da carta
 
     char Estado[20];
     char CodigoDacarta[20];
@@ -12,7 +11,6 @@ int main(){
     float PIB;
     int NumeroDePontosTuristicos;
 
-    // Coleta de dados para a primeira carta
 
     printf("Digite o nome do Estado para a primeira carta: \n");
     scanf("%s", Estado);
@@ -39,7 +37,7 @@ int main(){
     printf("Digite o Número de pontos Turísticos: \n");
     scanf("%d", &NumeroDePontosTuristicos);
 
-    // Informações da Primeira carta
+ 
     printf("Carta 1: \n");
     printf("Estado: %s\n", Estado);
     printf("Código das Cartas: %s\n", CodigoDacarta);
@@ -49,8 +47,6 @@ int main(){
     printf("PIB: %f\n", PIB);
     printf("Número de pontos Turísticos: %d\n", NumeroDePontosTuristicos);
 
-
-    // Coleta de dados para a segunda carta
 
     printf("\nDigite o nome do Estado para a segunda carta: \n");
     scanf("%s", Estado);
@@ -67,7 +63,7 @@ int main(){
     printf("Digite o Número de pontos Turísticos: \n");
     scanf("%d", &NumeroDePontosTuristicos);
 
-    // Informações da segunda carta
+
     printf("Carta 2: \n");
     printf("Estado: %s\n", Estado);
     printf("Código das Cartas: %s\n", CodigoDacarta);
